@@ -1,0 +1,18 @@
+# Binarios y builds
+*.jar
+bin/
+
+# Archivos locales
+recent.rotp
+
+# Configuración local (si es específica de tu entorno)
+Remnants.cfg
+
+
+dist/
+nbproject/
+test/
+build/
+build.xml/
+manifest.mf/
+launch4j/Remnants/
