@@ -1,23 +1,11 @@
-/*
- * Copyright 2015-2020 Ray Fowler
- * 
- * Licensed under the GNU General Public License, Version 3 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- * 
- *     https://www.gnu.org/licenses/gpl-3.0.html
- * 
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
+
 package rotp.util;
 
 import java.awt.Font;
 import java.awt.FontFormatException;
 import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.HashMap;
@@ -63,21 +51,43 @@ public enum FontManager implements Base {
         int index = n*scale/100;
         return fonts[index];
     }
+    
     private void createFontTable(String filename, Font f) {
         if (allFonts.containsKey(filename))
-            return;
-        
+        return;
+
         Font[] fonts = new Font[MAX_FONT_SIZE+1];
         allFonts.put(filename, fonts);
+
+        // CARGAR FUENTE PERSONALIZADA
+        Font customFont = null;
+
+        String fontPath = new File(".").getAbsolutePath() + "/VT323-Regular.ttf";
         
-        // index 0 is the base font that we use to re-derive
-        // the others when the window size changes 
-        fonts[0] = f;
-        
-        for (int size=1;size<=MAX_FONT_SIZE;size++) {
-            if (fonts[size] == null)
-                fonts[size] = f.deriveFont((float) scaled(size));
+        // Intenta cargar tu fuente personalizada
+        try {
+            // Ruta relativa o absoluta a tu archivo TTF
+            File fontFile = new File(fontPath);
+            if(fontFile.exists()){
+
+                customFont = Font.createFont(Font.TRUETYPE_FONT, fontFile);
+            }else{
+                // Fallback: usar una fuente del sistema que se parezca
+                customFont = new Font("Monospaced", Font.PLAIN, 12);
+            }
+            
+        } catch (Exception e) {
+            // Si falla, usar la fuente original o una de respaldo
+            err("Error: " + e.getMessage());
+            customFont = new Font("Arial", Font.PLAIN, 12);
         }
+
+        fonts[0] = customFont;
+
+        for (int size=1; size<=MAX_FONT_SIZE; size++) {
+            fonts[size] = customFont.deriveFont((float) scaled(size));
+        }
+        
     }
     public void resetFonts() {
         // window scaling has scaled. Rederive all fonts according to new scale
