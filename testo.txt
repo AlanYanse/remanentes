@@ -1,0 +1,7 @@
+
+
+eliminar los binarios -> rm -rf bin/*
+compilación -> javac -d bin $(find src -name "*.java")
+reempaquetar el .jar -> jar xf Remnants.jar
+reempaquetar de nuevo -> jar uf Remnants.jar -C bin .
+ejecutar el juego -> java -jar Remnants.jar
