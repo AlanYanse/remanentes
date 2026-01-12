@@ -1,18 +1,4 @@
-/*
- * Copyright 2015-2020 Ray Fowler
- * 
- * Licensed under the GNU General Public License, Version 3 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- * 
- *     https://www.gnu.org/licenses/gpl-3.0.html
- * 
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
+
 package rotp.ui;
 
 import java.awt.BorderLayout;
@@ -99,9 +85,13 @@ public class RotPUI extends BasePanel implements ActionListener, KeyListener {
         try { LanguageManager.current().selectedLanguageName(); }
         catch (Throwable t) { System.out.println("Err: LanguageManager init: "+t.getMessage()); }
 
-        try { SoundManager.current(); }
+        /*
+        try { 
+            //SoundManager.current(); 
+            System.out.println("por aquí pasó");
+        }
         catch (Throwable t) { startupException = t; System.out.println("Err: SoundManager init: "+t.getMessage()); }
-
+        */
         try { ImageManager.current(); }
         catch (Throwable t) { startupException = t; System.out.println("Err: ImageManager init: "+t.getMessage()); }
 
@@ -400,12 +390,14 @@ public class RotPUI extends BasePanel implements ActionListener, KeyListener {
                 e.printStackTrace();
                 return;
             }
+            /*
             if (line.toString().contains("com.sun.media.sound.DirectAudioDevice")) {
                 err("IGNORED JAVA MEDIA WARNING: ");
                 e.printStackTrace();
                 SoundManager.loadSounds();
                 return;
             }
+            */
         }
         //e.printStackTrace();
         errorUI.init(e);
@@ -693,21 +685,21 @@ public class RotPUI extends BasePanel implements ActionListener, KeyListener {
     private void selectDialogPanel(String panelName, BasePanel panel)   {
         currentPane = panelName;
         selectedPanel = panel;
-        selectedPanel.playAmbience();
+        //selectedPanel.playAmbience();
         dialogPane.selectPanel(panelName, panel);
         layout.show(this, DIALOG_PANEL);
     }
     private void selectPanel(String panelName, BasePanel panel)   {
         currentPane = panelName;
         selectedPanel = panel;
-        selectedPanel.playAmbience();
+        //selectedPanel.playAmbience();
         log("showing panel: ", panelName);
         layout.show(this, panelName);
     }
     @Override
     public void enableGlassPane(BasePanel panel)   {
         super.enableGlassPane(panel);
-        panel.playAmbience();
+        //panel.playAmbience();
     }
     @Override
     public void actionPerformed(ActionEvent e) {

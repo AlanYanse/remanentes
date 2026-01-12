@@ -90,12 +90,12 @@ public class UserPreferences {
         uiTexturePct = 0.20f;
         showMemory = false;
         if (!playMusic) 
-            SoundManager.current().toggleMusic();
+            //SoundManager.current().toggleMusic();
         if (!playSounds) 
-            SoundManager.current().toggleSounds();
+            //SoundManager.current().toggleSounds();
         musicVolume = 10;
         soundVolume = 10;
-        SoundManager.current().resetSoundVolumes(); 
+        //SoundManager.current().resetSoundVolumes(); 
         save();
     }
     public static void setForNewGame() {
