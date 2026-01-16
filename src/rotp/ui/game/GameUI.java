@@ -530,6 +530,7 @@ public class GameUI  extends BasePanel implements MouseListener, MouseMotionList
             return;
         }
 
+        /*
         if (languagePanel.fontsReady) {
             int lw = languagePanel.w;
             int lh = languagePanel.h;
@@ -540,14 +541,50 @@ public class GameUI  extends BasePanel implements MouseListener, MouseMotionList
                 g.fillRoundRect(w-s55, s5, s40, s40,s10,s10);
             }
             Image img = image("LANGUAGE_ICON");
-            g.drawImage(img, w-s55, s5, s40, s40, this);
-            languageBox.setBounds(w-s55, s5, s40, s40);
+            //g.drawImage(img, w-s55, s5, s40, s40, this);
+            //languageBox.setBounds(w-s55, s5, s40, s40);
+            languageBox.setBounds(langX, s5, langSW, s40);
 
             String langText = LanguageManager.current().selectedLanguageName();
             g.setFont(narrowFont(24));
             int langSW = g.getFontMetrics().stringWidth(langText);
             int langX = w-s55-langSW-s10;
             g.setColor(logoFore[0]);
+            drawShadowedString(g, langText, 2, langX, s30, Color.black, logoFore[0]);
+        }
+        */
+
+       if (languagePanel.fontsReady) {
+            int lw = languagePanel.w;
+            int lh = languagePanel.h;
+            languagePanel.setBounds(w - lw - s15, s5, lw, lh);
+
+            // 1. Obtener el texto del idioma actual y calcular su ancho
+            String langText = LanguageManager.current().selectedLanguageName();
+            g.setFont(narrowFont(24));
+            int langSW = g.getFontMetrics().stringWidth(langText);
+
+            // 2. Calcular la posición X del texto (justo a la izquierda del cuadro)
+            int langX = w - s55 - langSW - s10;
+
+            // 3. Definir el área de clic (ahora cubre el texto Y el cuadrado rojo)
+            languageBox.setBounds(langX, s5, langSW + s55, s40);
+
+            // 4. Dibujar el CUADRADO ROJO retro (reemplaza a g.drawImage)
+            // Usamos un rojo sólido de paleta clásica (R:200, G:0, B:0)
+            //g.setColor(new Color(200, 0, 0)); 
+            // Ajustamos 'w - s35' para la posición X y 's15' para centrarlo verticalmente
+            //int nuevoAncho = s20;
+            //int nuevaX = w - s35; 
+            //int nuevaY = s15; 
+
+            //g.fillRect(nuevaX, nuevaY, nuevoAncho, nuevoAncho); 
+
+            // Opcional: Agregar un borde negro delgado para el estilo Atari
+            //g.setColor(Color.BLACK);
+            //g.drawRect(w - s55, s5, s40, s40);
+
+            // 5. Dibujar el texto del idioma seleccionado
             drawShadowedString(g, langText, 2, langX, s30, Color.black, logoFore[0]);
         }
 

@@ -317,7 +317,7 @@ public class GameUI  extends BasePanel implements MouseListener, MouseMotionList
 
     private static int opt = -1;
     private static final String[] backImgKeys = { 
-        "LANDSCAPE_RUINS_ORION", "LANDSCAPE_RUINS_ANTARAN", 
+        "FONDO_RETRO", "LANDSCAPE_RUINS_ANTARAN", 
         "AlkCouncil", "AlkWin", "AlkLoss", "AlkSab01", "AlkSab02",
         "BulCouncil", "BulWin", "BulLoss", "BulSab01", "BulSab02", 
         "DarCouncil01", "DarWin", "DarLoss", "DarSab01", "DarSab02",
