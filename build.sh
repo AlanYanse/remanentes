@@ -8,4 +8,6 @@ jar xf Remnants.jar
 
 jar uf Remnants.jar -C bin .
 
+jar uf Remnants.jar -C src .
+
 java -jar Remnants.jar

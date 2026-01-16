@@ -9,6 +9,7 @@ TEXTURE_BROWN       | images/texture_brown.jpg
 TEXTURE_GRAY        | images/texture_gray.jpg
 DERELICT_SHIP       | images/Derelict_Ship.jpg
 SPY_REPORT          | images/spy-report.png
+FONDO_RETRO         | images/fondo_retro.png
 
 TECH_ANTIMATTER_BOMB          | images/techs/Anti-Matter_Bomb.png
 TECH_ANTIMATTER_TORPEDO       | images/techs/Anti-Matter_Torpedo.png

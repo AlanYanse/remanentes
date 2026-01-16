@@ -317,7 +317,7 @@ public class GameUI  extends BasePanel implements MouseListener, MouseMotionList
 
     private static int opt = -1;
     private static final String[] backImgKeys = { 
-        "LANDSCAPE_RUINS_ORION", "LANDSCAPE_RUINS_ANTARAN", 
+        "FONDO_RETRO", "LANDSCAPE_RUINS_ANTARAN", 
         "AlkCouncil", "AlkWin", "AlkLoss", "AlkSab01", "AlkSab02",
         "BulCouncil", "BulWin", "BulLoss", "BulSab01", "BulSab02", 
         "DarCouncil01", "DarWin", "DarLoss", "DarSab01", "DarSab02",
@@ -437,7 +437,11 @@ public class GameUI  extends BasePanel implements MouseListener, MouseMotionList
     public void paintComponent(Graphics g0) {
         super.paintComponent(g0);
         Graphics2D g = (Graphics2D) g0;
+        //int w = getWidth();
+
+        // Declaración necesaria de las dimensiones del panel
         int w = getWidth();
+        int h = getHeight();
         
         languagePanel.initFonts();
         /*
@@ -449,8 +453,19 @@ public class GameUI  extends BasePanel implements MouseListener, MouseMotionList
         }
          */
         // Fondo negro uniforme
-        g.setColor(Color.BLACK);
-        g.fillRect(0, 0, getWidth(), getHeight());
+        //g.setColor(Color.BLACK);
+        //g.fillRect(0, 0, getWidth(), getHeight());
+
+        if (backImg == null) {
+            backImg1 =  ImageManager.current().image(imageKey1);
+            backImg2 =  ImageManager.current().image(imageKey2);
+            backImg = newOpaqueImage(backImg1);
+            defaultBackground = backImg;
+        }
+        Image back = background();
+        int imgW = back.getWidth(null);
+        int imgH = back.getHeight(null);
+        g.drawImage(back, 0, 0, getWidth(), getHeight(), 0, 0, imgW, imgH, this);
 
   
         
