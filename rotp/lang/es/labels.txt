@@ -1915,12 +1915,12 @@ COUNCIL_REJECT_RULING             | Rechazar decisión
 
 // Credit text
 CREDITS_DEVELOPER                 | Alan Yanse 2026
-//CREDITS_ILLUSTRATOR               | Petar Penev, Illustrator
-//CREDITS_GRAPHIC_DESIGN            | Kaitlin Lindsay, Graphic Designer
-//CREDITS_MUSIC                     | Efe Tozan, Music
-//CREDITS_WRITER                    | Jeff Colucci, Writer
-//CREDITS_SOUND                     | Remi Agullo, Sound Designer
-//CREDITS_TRANSLATOR                | 
+CREDITS_ILLUSTRATOR               | 
+CREDITS_GRAPHIC_DESIGN            | 
+CREDITS_MUSIC                     | 
+CREDITS_WRITER                    | 
+CREDITS_SOUND                     | 
+CREDITS_TRANSLATOR                | 
 
 // Systems UI
 SYSTEMS_TITLE                     | Sistemas
