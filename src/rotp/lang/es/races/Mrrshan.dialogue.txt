@@ -1,89 +1,76 @@
-//
-// All text below this point is copyright 2018-2020 Jeff Colucci
-// 
-// Licensed under the Creative Commons License, 
-// Attribution-NonCommercial-NoDerivatives 4.0 International (the "License");
-// you may not use this file except in compliance with the License.
-// You may obtain a copy of the License at
-// 
-//     https://creativecommons.org/licenses/by-nc-nd/4.0/
-//  
-// This license is legally binding. Please review this license before altering 
-// or distributing any material covered under this license.
-//
+
 
 // Mrrshan specific dialogue
 
-CONTACT_AGGRESSIVE         | I greet you, strange thing. I am of the [my_race], and a servant of the Golden Khan. I hope that you are strong, [your_race], not just for your peoples' sake, but also for the sake of the treasures you hold most dear. 
-CONTACT_RUTHLESS           | We are the [my_race], [your_race], and we adhere to one belief alone: the strong shall take and the weak shall give. If you do not already understand the wisdom of such a philosophy, we'll be sure to teach it to you very soon.
-CONTACT_XENOPHOBIC         | Pray the Golden Khan regards you as worthy, [your_race]. Arouse his ire and he'll have no qualm about having fleets of [my_race] descend upon you.
+CONTACT_AGGRESSIVE         | Te saludo, criatura extraña. Soy de los [my_race] y sirviente del Khan Dorado. Espero que sean fuertes, [your_race], no solo por el bien de su pueblo, sino también por el de los tesoros que más aprecian.
+CONTACT_RUTHLESS           | Somos los [my_race], [your_race], y nos adherimos a una sola creencia: el fuerte tomará y el débil dará. Si aún no comprenden la sabiduría de tal filosofía, nos aseguraremos de enseñársela muy pronto.
+CONTACT_XENOPHOBIC         | Rueguen que el Khan Dorado los considere dignos, [your_race]. Despierten su ira y no tendrá reparos en enviar flotas de [my_race] sobre ustedes.
 //
-GREETING_01                | You've proven yourself to us time and time again. We're honored to do what we can to prove ourselves to you in kind.
-GREETING_04                | I'll hear your words ambassador, but I'm not bound to give you whatever it is you're seeking.
-GREETING_07                | You've some daring in you to approach a servant of the Khan. Say what you have to say, and be prepared to flee if you're merely wasting my time.
+GREETING_01                | Se han probado a sí mismos una y otra vez. Es un honor hacer lo posible para corresponderles de la misma manera.
+GREETING_04                | Escucharé sus palabras, embajador, pero no estoy obligado a concederles lo que sea que busquen.
+GREETING_07                | Tienen cierta osadía al acercarse a un sirviente del Khan. Digan lo que tengan que decir, y prepárense para huir si solo están desperdiciando mi tiempo.
 //
-DECLAREWAR_HATE_01         | Your relics are wasted on you! We'll adorn our halls on [my_home] with your bones and your treasure, and they'll be all that remains of your people when we are through!
-DECLAREWAR_HATE_02         | Enough of this! Mere raids will not satisfy our enmity towards your kind: you [your_race_plural] deserve a far more large-scale approach!
-DECLAREWAR_HATE_03         | Even knowing that a race as weak as yours has influence in this universe is enough to make us sick. No matter the odds, I promise you we'll do everything we can to teach you your place.
+DECLAREWAR_HATE_01         | ¡Sus reliquias están desperdiciadas en ustedes! ¡Adornaremos nuestras salas en [my_home] con sus huesos y su tesoro, y serán todo lo que quede de su pueblo cuando terminemos!
+DECLAREWAR_HATE_02         | ¡Basta ya! Las meras incursiones no satisfarán nuestra enemistad hacia su especie: ¡ustedes, [your_race_plural], merecen un enfoque mucho más amplio!
+DECLAREWAR_HATE_03         | Incluso saber que una raza tan débil como la suya tiene influencia en este universo es suficiente para enfermarnos. Sin importar las probabilidades, les prometo que haremos todo lo posible para enseñarles su lugar.
 //
-DECLAREWAR_ERRATIC_01      | The claws of the Khanate need sharpening, ambassador. Your people should provide us with the sport we need to keep ourselves ready for more worthy foes.
-DECLAREWAR_ERRATIC_02      | Your people truly have some of the most beautiful treasures, [your_race]. We're eager to see how fiercely you'll fight to keep them!
-DECLAREWAR_ERRATIC_03      | It's been far too long since we've brought back legendary spoils. Your people fight well, but can they prevent us from taking so many glittering trophies when they're within our grasp?
+DECLAREWAR_ERRATIC_01      | Las garras del Kanato necesitan afilarse, embajador. Su pueblo debería proporcionarnos el deporte que necesitamos para mantenernos listos para enemigos más dignos.
+DECLAREWAR_ERRATIC_02      | Su pueblo realmente tiene algunos de los tesoros más hermosos, [your_race]. ¡Estamos ansiosos por ver con qué ferocidad lucharán para conservarlos!
+DECLAREWAR_ERRATIC_03      | Ha pasado demasiado tiempo desde que trajimos botines legendarios. Su pueblo lucha bien, pero ¿puede evitar que tomemos tantos trofeos relucientes cuando están a nuestro alcance?
 //
-DECLAREWAR_MILITARY_01     | The strong take and the weak give: an iron-clad law of the universe. You will soon see that it applies to not just your treasures, but to your planets as well.
-DECLAREWAR_MILITARY_02     | Though it rarely glitters like gold, land is often a worthy prize in and of itself. And all good prizes are worth fighting for, aren't they, ambassador?
-DECLAREWAR_MILITARY_03     | The needs of the Khanate outweigh the needs of the [your_race] race. You may have impressive technology, but I doubt you have the ferocity to match it!
+DECLAREWAR_MILITARIST_01   | El fuerte toma y el débil da: una ley inquebrantable del universo. Pronto verán que se aplica no solo a sus tesoros, sino también a sus planetas.
+DECLAREWAR_MILITARIST_02   | Aunque rara vez brilla como el oro, la tierra es a menudo un premio digno por sí misma. Y todos los buenos premios valen la pena luchar por ellos, ¿no es así, embajador?
+DECLAREWAR_MILITARIST_03   | Las necesidades del Kanato superan las necesidades de la raza [your_race]. Puede que tengan tecnología impresionante, ¡pero dudo que tengan la ferocidad para igualarla!
 //
-DECLAREWAR_ALLIANCE_01     | You've played a dangerous game to make an enemy of the Khanate's ally. That game will soon come to a swift and bloody end!
-DECLAREWAR_ALLIANCE_02     | Our ally, the [other_race_plural], are an honorable but weak people. You might have won had this war involved only your two empires, but with us on their side you've no chance of victory!
-DECLAREWAR_ALLIANCE_03     | We'd have preferred to have the honor of toppling your empire all to ourselves. It looks like we'll have to split the glory, and the loot, with the [other_race] this time around.
+DECLAREWAR_ALLIANCE_01     | Han jugado un juego peligroso al hacerse enemigo del aliado del Kanato. ¡Ese juego pronto llegará a un final rápido y sangriento!
+DECLAREWAR_ALLIANCE_02     | Nuestro aliado, los [other_race_plural], es un pueblo honorable pero débil. ¡Podrían haber ganado si esta guerra involucrara solo a sus dos imperios, pero con nosotros de su lado no tienen ninguna posibilidad de victoria!
+DECLAREWAR_ALLIANCE_03     | Hubiéramos preferido tener el honor de derribar su imperio solo para nosotros. Parece que esta vez tendremos que dividir la gloria, y el botín, con los [other_race].
 //
-DECLAREWAR_SPYING_01       | Coward, to engage in secrecy rather than fight with honor! Your actions match your weakness, and now you shall pay the price! 
-DECLAREWAR_SPYING_02       | How does it feel, [your_race]? To risk so much only to bring nothing but war upon your people?
-DECLAREWAR_SPYING_03       | Tell the [your_nameTitle] [your_name] this: secrecy is the theater of gutless curs. That you would act in such an cowardly way means our ferocity alone will see us to victory!
+DECLAREWAR_SPYING_01       | ¡Cobarde, dedicarse al secretismo en lugar de luchar con honor! ¡Sus acciones coinciden con su debilidad, y ahora pagarán el precio!
+DECLAREWAR_SPYING_02       | ¿Cómo se siente, [your_race]? ¿Arriesgar tanto solo para traer nada más que guerra a su pueblo?
+DECLAREWAR_SPYING_03       | Dígale esto al [your_nameTitle] [your_name]: el secretismo es el teatro de cobardes. ¡Que actuarían de manera tan cobarde significa que nuestra ferocidad por sí sola nos llevará a la victoria!
 //
-DECLAREWAR_ATTACK_01       | Ha! Here we took you for cowardly weaklings, but it seems you've some fight in you after all! It's just too bad you won't be around long to celebrate this meager victory!
-DECLAREWAR_ATTACK_02       | You've done us quite the favor by bringing the fight to our doorstep! We'll repay you in kind by ensuring your people meet their end on the battlefield like true warriors!
-DECLAREWAR_ATTACK_03       | I'd avoid arrogance if I were you, ambassador. The fury of our warriors will never be beaten by technology, no matter how strong you've made yours!
+DECLAREWAR_ATTACK_01       | ¡Ja! ¡Aquí los tomábamos por debiluchos cobardes, pero parece que después de todo tienen algo de lucha! ¡Es una lástima que no estarán mucho tiempo para celebrar esta magra victoria!
+DECLAREWAR_ATTACK_02       | ¡Nos han hecho un gran favor al traer la lucha a nuestra puerta! ¡Les corresponderemos asegurándonos de que su pueblo encuentre su fin en el campo de batalla como verdaderos guerreros!
+DECLAREWAR_ATTACK_03       | Yo evitaría la arrogancia si fuera usted, embajador. ¡La furia de nuestros guerreros nunca será vencida por la tecnología, sin importar cuán fuerte hayan hecho la suya!
 //
-DECLAREWAR_OPPORTUNITY_01  | Your kind have long outlived their usefulness. But rest assured that you will provide adequate sport for the youngest and most inexperienced of our warriors as they hone their combat skills.
-DECLAREWAR_ASSASSIN_01     | I'm not shocked in the least that your kind would act so spinelessly. To assassinate an ambassador is the gravest dishonor you can bring upon yourself, and in their death throes your people will curse your name for ordering it done!
+DECLAREWAR_OPPORTUNITY_01  | Su especie ha sobrevivido mucho más allá de su utilidad. Pero tengan la seguridad de que proporcionarán deporte adecuado para los más jóvenes e inexpertos de nuestros guerreros mientras perfeccionan sus habilidades de combate.
+DECLAREWAR_ASSASSIN_01     | No me sorprende en lo más mínimo que su especie actúe con tanta falta de carácter. Asesinar a un embajador es la mayor deshonra que pueden traer sobre sí mismos, y en sus estertores de muerte su pueblo maldecirá su nombre por ordenarlo.
 
+OFFER_PEACE_01             | Hay un momento para todo, embajador, y el momento ahora ha llegado para un fin a nuestras hostilidades. Guarden sus reliquias; ¡la paz es todo lo que deseamos de ustedes ahora!
+OFFER_TRADE_01             | ¡No hay duda de que la forma más rápida de obtener trofeos es simplemente quitárselos a los demasiado débiles para detenerlos! Pero el comercio también puede ser una forma aceptable para que dos imperios se beneficien mutuamente. Comencemos con [amt] BC cada año para ver cuánto podemos... ganar el uno del otro.
+OFFER_PACT_01              | No hay necesidad de que imperios tan igualados luchen entre sí cuando hay muchas razas más débiles para saquear y quemar. ¡Acordemos un pacto oficial de no agresión para que nuestras energías puedan gastarse mejor en aquellos con tesoros más fáciles de tomar!
+OFFER_ALLIANCE_01          | Vengo hoy a proponer una alianza formal entre el Kanato y el [your_empire]. Confío en que no perderán tiempo en firmar este tratado. ¡Recuerden también: una parte igual en una alianza significa una parte igual en los botines de guerra!
 
-OFFER_PEACE_01             | There's a time for everything ambassador, and the time now has come for an end to our hostilities. Keep your relics; peace is all we desire from you now!
-OFFER_TRADE_01             | There's no doubt that the fastest way to gain trophies is to just take them from those too feeble to stop you! But trading can be an acceptable way for two empires to gain from each other too. Let's start at [amt] BC every year to see how much we can... gain from each other. 
-OFFER_PACT_01              | No need for empires so equally matched to fight amongst themselves when there are plenty of weaker races to pillage and burn. Let's agree to an official pact of non-aggression so that our energies can be better spent on those with easier treasures for the taking! 
-OFFER_ALLIANCE_01          | I come to you today to propose a formal alliance between the Khanate and the [your_empire]. I trust you will waste no time in signing this treaty? Remember too: an equal share in an alliance means an equal share in the spoils of war! 
- 
-WARN_TRESPASSING_01        | Unless your ships are in the [system] system to deliver tribute, I suggest you order them to turn around and leave as soon as possible. 
-WARN_EXPANSION_01          | While we prefer valuables we can adorn the walls of our temples with, we're not so blind as to ignore the treasure that is unclaimed land. Check your expansion or risk arousing our ire, ambassador. 
-WARN_BUILDUP_01            | If you're building up your fleets to raid another race, you'll get no objections from us. But until we have assurances to that end, we'll assume your fleets will be pointed at us, and will not hesitate to act pre-emptively. 
-WARN_SKIRMISH_01           | That was an amusing little skirmish, wasn't it? Still, these small battles are boring and without reward: if you insist on continuing them, we'll be happy to make a more formal declaration of war! 
-WARN_ATTACKED_01           | Ha! Was that a serious attempt at trying to provoke us ambassador? Your people are weak and your treasures tarnished! Cease this foolish gambit before you force us to end you! 
-WARN_INVADED_01            | Surely you jest with this meager little invasion of yours? You're fortunate that we had little use for the [system] system, but if you set your sights on more valuable systems, we'll ensure that you can take nothing from anyone ever again! 
-WARN_ESPIONAGE_01          | What sneaky games your people play! You will have to put forth a great deal more effort than that if you wish to gain the secrets of the Khanate for yourself. Take your spy back with you and leave, before this game ceases to be amusing. [framed]
-WARN_SABOTAGE_01           | Dangerous ploys, ambassador. Had the building you wished to destroy housed great valuables, we would doubtless be washing your blood from the streets of your homeworld. I would heavily recommend you not to consider sabotage again. [forced]
-WARN_BIOWEAPON_01          | Trophies must be won in honorable combat, not stolen from the bones of those who were defenseless even while alive! If you ever use such despicable weapons again, I assure you it will be the last time! 
-WARN_GENOCIDE_01           | Not a bad decision, to eradicate the entire [victim_race] species and take every one of their treasures for your own. While I doubt you'd be stupid enough to try something like that with us, your capabilities are still quite disconcerting. 
-WARN_FINAL_WAR_01          | Stupid [your_race]! To defy the will of the council decision is to defy the will of the [my_race]! We will take your trophies and burn them down to the smallest bauble! Nothing will remain of your kind once we are through! 
-WARN_COUNCIL_VOTE_01       | The Khanate has more important matters to deal with than playing political games in council chambers. It would be better for us if you would simply yield to our wishes. And it would be better for you too, if my meaning is made clear.
-WARN_OATHBREAKER_01        | Hmph! Only the desperate break the bond of their word. No matter! From now on we will simply deal with you as we deal with others too duplicitous to be trusted. [spiesCaught]
-WARN_ATTACKED_ALLY_01      | I can't say I don't see why you'd attack the [defender_race]. Their treasures are so very lovely... but they will belong to us when we wish to take them: they will not belong to you!
-WARN_REBELLING_AGAINST_01  | This peace espoused by the council would never sit well with our people. We desire one thing and one thing only: to take treasures from the weak and make them ours! 
+WARN_TRESPASSING_01        | A menos que sus naves estén en el sistema [system] para entregar tributo, les sugiero que les ordenen dar la vuelta y marcharse lo antes posible.
+WARN_EXPANSION_01          | Aunque preferimos objetos de valor que podamos adornar las paredes de nuestros templos, no somos tan ciegos como para ignorar el tesoro que es la tierra sin reclamar. Contengan su expansión o arriesguen despertar nuestra ira, embajador.
+WARN_BUILDUP_01            | Si están acumulando sus flotas para atacar a otra raza, no tendremos objeciones. Pero hasta que no tengamos garantías de eso, asumiremos que sus flotas estarán apuntadas hacia nosotros, y no dudaremos en actuar preventivamente.
+WARN_SKIRMISH_01           | Esa fue una escaramuza bastante divertida, ¿no? Aún así, estas pequeñas batallas son aburridas y sin recompensa: ¡si insisten en continuarlas, estaremos encantados de hacer una declaración de guerra más formal!
+WARN_ATTACKED_01           | ¡Ja! ¿Fue ese un intento serio de provocarnos, embajador? ¡Su pueblo es débil y sus tesoros están empañados! ¡Cesen este tonto ardid antes de que nos obliguen a acabarlos!
+WARN_INVADED_01            | ¿Seguramente bromean con esta mezquina invasión? Tienen suerte de que teníamos poco uso para el sistema [system], ¡pero si ponen sus miras en sistemas más valiosos, nos aseguraremos de que no puedan tomar nada de nadie nunca más!
+WARN_ESPIONAGE_01          | ¡Qué juegos tan astutos juega su pueblo! Tendrán que esforzarse mucho más que eso si desean obtener los secretos del Kanato para ustedes mismos. Llévense a su espía con ustedes y márchense, antes de que este juego deje de ser divertido. [framed]
+WARN_SABOTAGE_01           | Jugadas peligrosas, embajador. Si el edificio que deseaban destruir hubiera albergado grandes valores, sin duda estaríamos lavando su sangre de las calles de su mundo natal. Les recomiendo encarecidamente que no consideren el sabotaje nuevamente. [forced]
+WARN_BIOWEAPON_01          | ¡Los trofeos deben ganarse en combate honorable, no robados de los huesos de aquellos que estaban indefensos incluso en vida! ¡Si alguna vez vuelven a usar armas tan despreciables, les aseguro que será la última vez!
+WARN_GENOCIDE_01           | No es una mala decisión, erradicar por completo a la especie [victim_race] y tomar cada uno de sus tesoros para ustedes. Aunque dudo que sean lo suficientemente estúpidos como para intentar algo así con nosotros, sus capacidades siguen siendo bastante inquietantes.
+WARN_FINAL_WAR_01          | ¡Estúpidos [your_race]! ¡Desafiar la voluntad de la decisión del consejo es desafiar la voluntad de los [my_race]! ¡Tomaremos sus trofeos y los quemaremos hasta el adorno más pequeño! ¡No quedará nada de su especie una vez que terminemos!
+WARN_COUNCIL_VOTE_01       | El Kanato tiene asuntos más importantes que atender que jugar juegos políticos en las cámaras del consejo. Sería mejor para nosotros si simplemente cedieran a nuestros deseos. Y sería mejor para ustedes también, si mi significado queda claro.
+WARN_OATHBREAKER_01        | ¡Hum! Solo los desesperados rompen el vínculo de su palabra. ¡No importa! De ahora en adelante simplemente los trataremos como tratamos a otros demasiado pérfidos para ser confiables. [spiesCaught]
+WARN_ATTACKED_ALLY_01      | No puedo decir que no vea por qué atacarían a los [defender_race]. Sus tesoros son tan hermosos... pero pertenecerán a nosotros cuando deseemos tomarlos: ¡no pertenecerán a ustedes!
+WARN_REBELLING_AGAINST_01  | Esta paz defendida por el consejo nunca sentaría bien a nuestro pueblo. Deseamos una cosa y solo una: ¡tomar tesoros de los débiles y hacerlos nuestros!
 
-PRAISE_COUNCIL_VOTE_01     | Your support in council is always valued, ambassador. The Golden Khan himself wished you to know that your people are a prized asset to the Khanate, and should you wish visit [candidate_home], a feast will be held in your name! 
-PRAISE_COUNCIL_VOTE_02     | Did you see that [rival_race] representative scowl? Ha! Let them sneer! As long as wise people like you continue to recognize our power then the Khanate has nothing to fear! 
-PRAISE_COUNCIL_VOTE_03     | Do you fear our raids ambassador? Are you hoping that appeasing us in council will keep our treasure seekers from your worlds? Hmhmhmhm, well it certainly does nothing to hurt your chances, does it?
-PRAISE_ATTACKED_ENEMY_01   | Today will be grand for both of our people, [attacker_race]! The [defender_race] hasn't a prayer against our combined strength! There's plenty of treasure for the both of us: to the greatest warriors go the greatest spoils! 
-PRAISE_ATTACKED_ENEMY_02   | Hoping for a chance at some treasure today, ambassador? Very well, I'll make you a deal: assist us in being rid of these [defender_race] pests and we will see to it that you earn a just reward. 
-PRAISE_ATTACKED_ENEMY_03   | It's obvious that you're only in this war for the riches you can take for yourself. But these [defender_race] have pitiful relics, so I suppose if you assist us then we'll leave for you whatever we don't wish to take for ourselves. 
-PRAISE_TRADE_01            | Remember when I began our trade agreement? I told you that we would see how much we would gain from each other, and I'm glad to see that the value gained has been mutual. 
-PRAISE_TRADE_02            | It's always more fun to fight for riches and head home with ships loaded with the spoils of victory! Ah well, I suppose that this trade agreement is at least a little bit more profitable when you factor in the costs. Be sure it stays that way, ambassador.
-PRAISE_REBELLING_WITH_01   | That's more like it! There's nothing like a good fight, eh? And so much loot begging to be acquired... I hope you don't mind that the Khanate wants to join in the fun! 
+PRAISE_COUNCIL_VOTE_01     | Su apoyo en el consejo siempre es valorado, embajador. El propio Khan Dorado deseaba que supiera que su pueblo es un activo preciado para el Kanato, y si desean visitar [candidate_home], ¡se celebrará un banquete en su nombre!
+PRAISE_COUNCIL_VOTE_02     | ¿Vieron la mueca de ese representante [rival_race]? ¡Ja! ¡Dejen que frunzan el ceño! ¡Mientras personas sabias como ustedes sigan reconociendo nuestro poder, el Kanato no tiene nada que temer!
+PRAISE_COUNCIL_VOTE_03     | ¿Temen nuestras incursiones, embajador? ¿Esperan que apaciguarnos en el consejo mantenga a nuestros buscadores de tesoros lejos de sus mundos? Hmhmhmhm, bueno, ciertamente no hace nada para dañar sus posibilidades, ¿verdad?
+PRAISE_ATTACKED_ENEMY_01   | ¡Hoy será grandioso para ambos pueblos, [attacker_race]! ¡Los [defender_race] no tienen ninguna oración contra nuestra fuerza combinada! Hay mucho botín para ambos: ¡a los mayores guerreros les corresponden los mayores despojos!
+PRAISE_ATTACKED_ENEMY_02   | ¿Esperando una oportunidad para obtener algo de botín hoy, embajador? Muy bien, les haré un trato: ayúdennos a deshacernos de estas plagas [defender_race] y nos aseguraremos de que obtengan una recompensa justa.
+PRAISE_ATTACKED_ENEMY_03   | Es obvio que solo están en esta guerra por las riquezas que pueden tomar para ustedes mismos. Pero estos [defender_race] tienen reliquias patéticas, así que supongo que si nos ayudan, les dejaremos lo que no deseemos tomar para nosotros.
+PRAISE_TRADE_01            | ¿Recuerdan cuando comenzamos nuestro acuerdo comercial? Les dije que veríamos cuánto ganaríamos el uno del otro, y me alegra ver que el valor obtenido ha sido mutuo.
+PRAISE_TRADE_02            | ¡Siempre es más divertido luchar por riquezas y volver a casa con naves cargadas con los despojos de la victoria! Ah, bueno, supongo que este acuerdo comercial es al menos un poco más rentable cuando se tienen en cuenta los costos. Asegúrense de que siga así, embajador.
+PRAISE_REBELLING_WITH_01   | ¡Eso es más como ello! No hay nada como una buena pelea, ¿eh? Y tanto botín rogando por ser adquirido... Espero que no les importe que el Kanato quiera unirse a la diversión.
 
-ACCEPT_TRADE_01            | I suppose we can't loot every civilization we come across. You want to trade how much BC annually? [amt]? Fine..
-RESPOND_IGNORE_THREAT_01   | Forgive me for laughing, your threats are just comically empty. Run along now before our raiders decide to sharpen their claws on your colonies.
-RESPOND_STOP_SPYING_01     | You found a spy you say belongs to us? Surely not. We would never dream of spying on the exalted [your_empire]. Do what you want with the spy, it is of no consequence to us.
-RESPOND_STOP_ATTACKING_01  | Worried about a raid, [your_race]? Don't worry, we have no interest in what you possess. We'll move them now. We wouldn't want to scare you, after all.
+ACCEPT_TRADE_01            | Supongo que no podemos saquear todas las civilizaciones con las que nos encontramos. ¿Quieren comerciar cuántos BC anualmente? ¿[amt]? Bien...
+RESPOND_IGNORE_THREAT_01   | Perdónenme por reír, sus amenazas son simplemente cómicamente vacías. Lárgense ahora antes de que nuestros asaltantes decidan afilar sus garras en sus colonias.
+RESPOND_STOP_SPYING_01     | ¿Encontraron un espía que dicen que es nuestro? Seguramente no. Nunca soñaríamos con espiar al exaltado [your_empire]. Hagan lo que quieran con el espía, no tiene consecuencias para nosotros.
+RESPOND_STOP_ATTACKING_01  | ¿Preocupados por una incursión, [your_race]? No se preocupen, no tenemos interés en lo que poseen. Los moveremos ahora. No querríamos asustarlos, después de todo.
 
 
