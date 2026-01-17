@@ -1783,263 +1783,270 @@ RACES_MILITARY_WEAPONS            | Armas
 RACES_MILITARY_SPECIALS           | Dispositivos especiales
 
 
-RACES_STATUS_THE_EMPIRE           | The [alien_empire]
+RACES_STATUS_THE_EMPIRE           | El [alien_empire]
 RACES_STATUS_VS                   | vs.
-RACES_STATUS_KNOWN_EMPIRES        | %1 Known Empires
-RACES_STATUS_HISTORY              | Show [alien_race] History
-RACES_STATUS_NO_DATA              | No Data
-RACES_STATUS_OLD_DATA             | Old Data
-RACES_STATUS_FLEET_STRENGTH       | Fleet Strength
-RACES_STATUS_POPULATION           | Population
-RACES_STATUS_TECHNOLOGY           | Technology
-RACES_STATUS_PLANETS              | Planets
-RACES_STATUS_PRODUCTION           | Production
-RACES_STATUS_TOTAL_POWER          | Total Power
+RACES_STATUS_KNOWN_EMPIRES        | %1 Imperios conocidos
+RACES_STATUS_HISTORY              | Mostrar historial de [alien_race]
+RACES_STATUS_NO_DATA              | Sin datos
+RACES_STATUS_OLD_DATA             | Datos antiguos
+RACES_STATUS_FLEET_STRENGTH       | Fuerza de flota
+RACES_STATUS_POPULATION           | Población
+RACES_STATUS_TECHNOLOGY           | Tecnología
+RACES_STATUS_PLANETS              | Planetas
+RACES_STATUS_PRODUCTION           | Producción
+RACES_STATUS_TOTAL_POWER          | Poder total
 RACES_UNKNOWN_DATA                | ???
 
-RACES_SET_COLOR_TITLE             | Choose new color for the [alien_empire]
-RACES_SET_COLOR_DESC              | If the selected color and shape are used by another empire, the colors will be switched.
+RACES_SET_COLOR_TITLE             | Elegir nuevo color para el [alien_empire]
+RACES_SET_COLOR_DESC              | Si el color y la forma seleccionados son usados por otro imperio, los colores se intercambiarán.
+
 
 // Races UI help
-RACES_HELP_0A                     | OVERVIEW: This screen provides detailed information about each of the alien races that you have encountered.
-RACES_HELP_0B                     | Diplomacy - Engage in diplomacy with the selected empire. 
-RACES_HELP_0C                     | Intelligence - Display alien technology and manage your spy networks.
-RACES_HELP_0D                     | Military - Display fleet and ship designs.
-RACES_HELP_0E                     | Status - Comparison across several categories.
-RACES_HELP_0F                     | Selecting your empire allows you to manage information for all contacted races on each tab.
-RACES_HELP_0G                     | Selecting an alien empire shows more detailed information for that race on each tab.
-RACES_HELP_1A                     | General information for selected empire.
-RACES_HELP_1B                     | Provides direct access to diplomats for all contacted empires.
-RACES_HELP_1C                     | Increase the security tax to improve your chances of thwarting enemy spies.
-RACES_HELP_1D                     | Provides direct access to manage your spies in all contacted empires.
-RACES_HELP_1E                     | Diplomatic incidents that affect how other empires react to you. The effects will move towards zero over time.
-RACES_HELP_1F                     | Click to change the color for a race displayed on the map
-RACES_HELP_2A                     | General information for selected empire.
-RACES_HELP_2B                     | Grants an audience with a diplomat for the selected empire.
-RACES_HELP_2C                     | Information about trade treaties signed with the selected empire.
-RACES_HELP_2D                     | Other empires that the selected empire has contacted.
-RACES_HELP_2E                     | Diplomatic incidents that affect how the selected empire reacts to you. The effects will move towards zero over time.
-RACES_HELP_2F                     | A measure of the current state of relations with the selected empire. 
-RACES_HELP_3A                     | Increase the security tax to improve your chances of thwarting enemy spies.
-RACES_HELP_3B                     | Provides direct access to manage your spies in all contacted empires.
-RACES_HELP_3C                     | All technologies known by other empires, as gathered by your spies. Technologies that you do not know are shown in yellow.
-RACES_HELP_4A                     | Set the number of spy networks you want to establish in the selected empire, and the amount you wish to spend annually.
-RACES_HELP_4B                     | Set the orders for the spies infiltrating the selected empire. Hide - gather data. Espionage - attempt to steal technology. Sabotage - incite rebellions or destroy factories and missile bases.
-RACES_HELP_4C                     | All technologies known by the selected empire. Technologies that you do not know are shown in yellow.
-RACES_HELP_5A                     | The known number of ships in the fleet of the selected race, by hull size. This information will remain current as long as you have an active spy network in the selected empire.
-RACES_HELP_5B                     | The known capabilities of ship designs. Older designs may be out of service. This information is primarily gathered during ship combat.
-RACES_HELP_5C                     | The known defensive capabilities of the selected empire. 
-RACES_HELP_6A                     | This screen provides a current ranking, in various categories, of our empire compared to other known empires. This data is gathered from our spy networks within those empires.
-RACES_HELP_6A2                    | This screen provides a historical comparison, in various categories, of our empire to a selected empire. This data is gathered from our spy networks within those empires.
-RACES_HELP_6B                     | Fleet Strength - combines number and size of ships.
-RACES_HELP_6C                     | Population - total population of all colonized systems.
-RACES_HELP_6D                     | Technology - average level of technology in all areas of research.
-RACES_HELP_6E                     | Planets - the number of colonized systems.
-RACES_HELP_6F                     | Production - total industrial production for the empire.
-RACES_HELP_6G                     | Total Power - a combination of fleet strength, technology and production levels.
+RACES_HELP_0A                     | DESCRIPCIÓN GENERAL: Esta pantalla proporciona información detallada sobre cada una de las razas alienígenas que has encontrado.
+RACES_HELP_0B                     | Diplomacia - Inicia acciones diplomáticas con el imperio seleccionado.
+RACES_HELP_0C                     | Inteligencia - Muestra la tecnología alienígena y administra tus redes de espías.
+RACES_HELP_0D                     | Militar - Muestra flotas y diseños de naves.
+RACES_HELP_0E                     | Estado - Comparación entre varias categorías.
+RACES_HELP_0F                     | Al seleccionar tu imperio puedes administrar la información de todas las razas contactadas en cada pestaña.
+RACES_HELP_0G                     | Al seleccionar un imperio alienígena se muestra información más detallada de esa raza en cada pestaña.
+RACES_HELP_1A                     | Información general del imperio seleccionado.
+RACES_HELP_1B                     | Proporciona acceso directo a diplomáticos de todos los imperios contactados.
+RACES_HELP_1C                     | Aumenta el impuesto de seguridad para mejorar tus probabilidades de frustrar a los espías enemigos.
+RACES_HELP_1D                     | Proporciona acceso directo para administrar tus espías en todos los imperios contactados.
+RACES_HELP_1E                     | Incidentes diplomáticos que afectan cómo otros imperios reaccionan ante ti. Sus efectos se reducen gradualmente hasta cero.
+RACES_HELP_1F                     | Haz clic para cambiar el color de una raza mostrada en el mapa
+RACES_HELP_2A                     | Información general del imperio seleccionado.
+RACES_HELP_2B                     | Otorga una audiencia con un diplomático del imperio seleccionado.
+RACES_HELP_2C                     | Información sobre los tratados comerciales firmados con el imperio seleccionado.
+RACES_HELP_2D                     | Otros imperios con los que el imperio seleccionado ha tenido contacto.
+RACES_HELP_2E                     | Incidentes diplomáticos que afectan cómo el imperio seleccionado reacciona ante ti. Sus efectos se reducen gradualmente hasta cero.
+RACES_HELP_2F                     | Una medida del estado actual de las relaciones con el imperio seleccionado.
+RACES_HELP_3A                     | Aumenta el impuesto de seguridad para mejorar tus probabilidades de frustrar a los espías enemigos.
+RACES_HELP_3B                     | Proporciona acceso directo para administrar tus espías en todos los imperios contactados.
+RACES_HELP_3C                     | Todas las tecnologías conocidas por otros imperios, obtenidas por medio de tus espías. Las tecnologías que no conoces se muestran en amarillo.
+RACES_HELP_4A                     | Establece el número de redes de espionaje que deseas crear en el imperio seleccionado y el monto que deseas gastar anualmente.
+RACES_HELP_4B                     | Define las órdenes para los espías infiltrados en el imperio seleccionado. Ocultar: recopilar datos. Espionaje: intentar robar tecnología. Sabotaje: incitar rebeliones o destruir fábricas y bases de misiles.
+RACES_HELP_4C                     | Todas las tecnologías conocidas por el imperio seleccionado. Las tecnologías que no conoces se muestran en amarillo.
+RACES_HELP_5A                     | El número conocido de naves en la flota de la raza seleccionada, por tamaño de casco. Esta información se mantendrá actualizada mientras tengas una red de espionaje activa en el imperio seleccionado.
+RACES_HELP_5B                     | Las capacidades conocidas de los diseños de naves. Los diseños antiguos pueden estar fuera de servicio. Esta información se obtiene principalmente durante el combate espacial.
+RACES_HELP_5C                     | Las capacidades defensivas conocidas del imperio seleccionado.
+RACES_HELP_6A                     | Esta pantalla muestra una clasificación actual, en varias categorías, de nuestro imperio comparado con otros imperios conocidos. Estos datos se obtienen de nuestras redes de espionaje en dichos imperios.
+RACES_HELP_6A2                    | Esta pantalla muestra una comparación histórica, en varias categorías, de nuestro imperio con un imperio seleccionado. Estos datos se obtienen de nuestras redes de espionaje en dichos imperios.
+RACES_HELP_6B                     | Fuerza de flota - combina el número y el tamaño de las naves.
+RACES_HELP_6C                     | Población - población total de todos los sistemas colonizados.
+RACES_HELP_6D                     | Tecnología - nivel promedio de tecnología en todas las áreas de investigación.
+RACES_HELP_6E                     | Planetas - número de sistemas colonizados.
+RACES_HELP_6F                     | Producción - producción industrial total del imperio.
+RACES_HELP_6G                     | Poder total - combinación de fuerza de flota, tecnología y niveles de producción.
+
 
 // Sabotage UI
-SABOTAGE_TITLE                    | Our spies have infiltrated [alien_race] colonies and are ready to carry out orders.
-SABOTAGE_PROMPT                   | Select the form of sabotage to commit against the [alien_empire] in the %1 system.
-SABOTAGE_WARNING                  | Warning! Any act of sabotage will break our treaty with the [alien_empire].
-SABOTAGE_SELECT_TARGET            | Select a target
-SABOTAGE_BUTTON_FACTORIES         | Destroy Factories
-SABOTAGE_BUTTON_BASES             | Destroy Missile Bases
-SABOTAGE_BUTTON_REBELLION         | Incite Rebellion
-SABOTAGE_BUTTON_NO_ACTION         | Take No Action
-SABOTAGE_FACTORIES_RESULT         | Your spies destroyed %1 factories.
-SABOTAGE_BASES_RESULT             | Your spies destroyed %1 missile bases.
-SABOTAGE_REBELS_TOTAL             | Your spies incited %1 rebels. Unrest now at %2%.
-SABOTAGE_REBELS_REVOLT            | Your spies have triggered a revolt!
-SABOTAGE_BASES                    | missile bases
-SABOTAGE_FACTORIES                | factories
-NOTICE_SPYING_MISSION_HIDE        | Infiltration
-NOTICE_SPYING_MISSION_ESPIONAGE   | Espionage
-NOTICE_SPYING_MISSION_SABOTAGE    | Sabotage
+SABOTAGE_TITLE                    | Nuestros espías se han infiltrado en colonias [alien_race] y están listos para cumplir órdenes.
+SABOTAGE_PROMPT                   | Selecciona la forma de sabotaje a realizar contra el [alien_empire] en el sistema %1.
+SABOTAGE_WARNING                  | ¡Advertencia! Cualquier acto de sabotaje romperá nuestro tratado con el [alien_empire].
+SABOTAGE_SELECT_TARGET            | Selecciona un objetivo
+SABOTAGE_BUTTON_FACTORIES         | Destruir fábricas
+SABOTAGE_BUTTON_BASES             | Destruir bases de misiles
+SABOTAGE_BUTTON_REBELLION         | Incitar rebelión
+SABOTAGE_BUTTON_NO_ACTION         | No realizar ninguna acción
+SABOTAGE_FACTORIES_RESULT         | Tus espías destruyeron %1 fábricas.
+SABOTAGE_BASES_RESULT             | Tus espías destruyeron %1 bases de misiles.
+SABOTAGE_REBELS_TOTAL             | Tus espías incitaron a %1 rebeldes. El descontento ahora es del %2%.
+SABOTAGE_REBELS_REVOLT            | ¡Tus espías han provocado una revuelta!
+SABOTAGE_BASES                    | bases de misiles
+SABOTAGE_FACTORIES                | fábricas
+NOTICE_SPYING_MISSION_HIDE        | Infiltración
+NOTICE_SPYING_MISSION_ESPIONAGE   | Espionaje
+NOTICE_SPYING_MISSION_SABOTAGE    | Sabotaje
+
 
 // History UI
-HISTORY_TITLE                     | Known Galactic History
-HISTORY_TITLE_ALL                 | Full Galactic History
-HISTORY_TURN_DESC                 | Turn %1 of %2
-HISTORY_FORWARD                   | Forward
-HISTORY_BACK                      | Back
-HISTORY_PLAY                      | Play
-HISTORY_PAUSE                     | Pause
-HISTORY_RESET                     | Reset
-HISTORY_EXIT                      | Exit
-HISTORY_EXTINCT                   | Extinct
-HISTORY_SYSTEMS                   | Systems
-HISTORY_EMPIRE                    | Empire
+HISTORY_TITLE                     | Historia galáctica conocida
+HISTORY_TITLE_ALL                 | Historia galáctica completa
+HISTORY_TURN_DESC                 | Turno %1 de %2
+HISTORY_FORWARD                   | Adelante
+HISTORY_BACK                      | Atrás
+HISTORY_PLAY                      | Reproducir
+HISTORY_PAUSE                     | Pausa
+HISTORY_RESET                     | Reiniciar
+HISTORY_EXIT                      | Salir
+HISTORY_EXTINCT                   | Extinto
+HISTORY_SYSTEMS                   | Sistemas
+HISTORY_EMPIRE                    | Imperio
+
 
 
 
 // Council UIs
-COUNCIL_CONVENE_TITLE             | The High Council Convenes
-COUNCIL_CONVENE                   | The High Council has convened to elect one leader to be Ruler of the Galaxy.
-COUNCIL_CONVENE2                  | Each empire casts a share of votes proportional to its population. A candidate must collect at least two thirds of all votes to be elected. The candidates are the leaders of the two most populous empires: [first_name] of the [first_empire] and [second_name] of the [second_empire].
-COUNCIL_ADJOURN_TITLE             | The High Council Adjourns
-COUNCIL_ADJOURN                   | Voting has concluded and neither candidate has collected two-thirds of votes. No ruler has been named. The High Council will reconvene for another vote in 25 years.
-COUNCIL_SUMMARY_TITLE             | Voter Summary
-COUNCIL_SUMMARY                   | Votes are cast in order of population. %1 votes are required to win election.
-COUNCIL_BEGIN_VOTING              | Begin Voting
-COUNCIL_SHOW_VOTING               | Continue Voting
-COUNCIL_SKIP_TO_PLAYER            | Skip to [player_race] Vote
-COUNCIL_COMPLETE_VOTING           | Complete All Voting
-COUNCIL_SHOW_RESULTS              | Show Results
-COUNCIL_VIEW_SUMMARY              | View Voter Summary
-COUNCIL_VOTES_REQUIRED            | %1 votes required to win election.
-COUNCIL_CAST_PROMPT               | We must cast our %1 votes.
-COUNCIL_CAST_PROMPT_TITLE         | Select a candidate.
-COUNCIL_CHOICE_ABSTAIN            | Abstain
-COUNCIL_CAST_VOTE                 | The [voter_empire] cast %1 votes for [candidate_name]!
-COUNCIL_CAST_ABSTAIN              | The [voter_empire] abstains (%1 votes)
-COUNCIL_CHOICE_ABSTAIN            | Abstain
-COUNCIL_VOTE_COUNT                | %1 votes
-COUNCIL_VOTE_CAST                 | %1 votes - for [alien_race]
-COUNCIL_VOTE_ABSTAINED            | %1 votes - Abstained
-COUNCIL_TREATY_CANDIDATE          | [alien_race]: Candidate
-COUNCIL_TREATY_ALLIANCE           | [alien_race]: Alliance
-COUNCIL_TREATY_PACT               | [alien_race]: Non-aggression Pact
-COUNCIL_TREATY_NONE               | [alien_race]: No Treaty
-COUNCIL_TREATY_WAR                | [alien_race]: At War
-COUNCIL_CONTINUE                  | Continue
-COUNCIL_ELECTED_TITLE             | Ruler of the Galaxy Elected!
-COUNCIL_ACCEPT_RULING             | Accept Ruling
-COUNCIL_REJECT_RULING             | Reject Ruling
+COUNCIL_CONVENE_TITLE             | El Alto Consejo se reúne
+COUNCIL_CONVENE                   | El Alto Consejo se ha reunido para elegir a un líder como Gobernante de la Galaxia.
+COUNCIL_CONVENE2                  | Cada imperio emite una cantidad de votos proporcional a su población. Un candidato debe reunir al menos dos tercios de todos los votos para ser elegido. Los candidatos son los líderes de los dos imperios más poblados: [first_name] del [first_empire] y [second_name] del [second_empire].
+COUNCIL_ADJOURN_TITLE             | El Alto Consejo se levanta
+COUNCIL_ADJOURN                   | La votación ha concluido y ninguno de los candidatos ha reunido dos tercios de los votos. No se ha designado un gobernante. El Alto Consejo se volverá a reunir para otra votación dentro de 25 años.
+COUNCIL_SUMMARY_TITLE             | Resumen de votantes
+COUNCIL_SUMMARY                   | Los votos se emiten en orden de población. Se requieren %1 votos para ganar la elección.
+COUNCIL_BEGIN_VOTING              | Iniciar votación
+COUNCIL_SHOW_VOTING               | Continuar votación
+COUNCIL_SKIP_TO_PLAYER            | Saltar al voto de [player_race]
+COUNCIL_COMPLETE_VOTING           | Completar toda la votación
+COUNCIL_SHOW_RESULTS              | Mostrar resultados
+COUNCIL_VIEW_SUMMARY              | Ver resumen de votantes
+COUNCIL_VOTES_REQUIRED            | Se requieren %1 votos para ganar la elección.
+COUNCIL_CAST_PROMPT               | Debemos emitir nuestros %1 votos.
+COUNCIL_CAST_PROMPT_TITLE         | Selecciona un candidato.
+COUNCIL_CHOICE_ABSTAIN            | Abstenerse
+COUNCIL_CAST_VOTE                 | ¡El [voter_empire] emitió %1 votos a favor de [candidate_name]!
+COUNCIL_CAST_ABSTAIN              | El [voter_empire] se abstiene (%1 votos)
+COUNCIL_CHOICE_ABSTAIN            | Abstenerse
+COUNCIL_VOTE_COUNT                | %1 votos
+COUNCIL_VOTE_CAST                 | %1 votos - por [alien_race]
+COUNCIL_VOTE_ABSTAINED            | %1 votos - Abstención
+COUNCIL_TREATY_CANDIDATE          | [alien_race]: Candidato
+COUNCIL_TREATY_ALLIANCE           | [alien_race]: Alianza
+COUNCIL_TREATY_PACT               | [alien_race]: Pacto de no agresión
+COUNCIL_TREATY_NONE               | [alien_race]: Sin tratado
+COUNCIL_TREATY_WAR                | [alien_race]: En guerra
+COUNCIL_CONTINUE                  | Continuar
+COUNCIL_ELECTED_TITLE             | ¡Gobernante de la Galaxia elegido!
+COUNCIL_ACCEPT_RULING             | Aceptar decisión
+COUNCIL_REJECT_RULING             | Rechazar decisión
+
 
 
 // Credit text
-CREDITS_DEVELOPER                 | Ray Fowler, Developer
-CREDITS_ILLUSTRATOR               | Petar Penev, Illustrator
-CREDITS_GRAPHIC_DESIGN            | Kaitlin Lindsay, Graphic Designer
-CREDITS_MUSIC                     | Efe Tozan, Music
-CREDITS_WRITER                    | Jeff Colucci, Writer
-CREDITS_SOUND                     | Remi Agullo, Sound Designer
+CREDITS_DEVELOPER                 | Alan Yanse 2026
+CREDITS_ILLUSTRATOR               | 
+CREDITS_GRAPHIC_DESIGN            | 
+CREDITS_MUSIC                     | 
+CREDITS_WRITER                    | 
+CREDITS_SOUND                     | 
 CREDITS_TRANSLATOR                | 
 
 // Systems UI
-SYSTEMS_TITLE                     | Systems
-SYSTEMS_TAB_EXPLORE               | Explore
-SYSTEMS_TAB_EXPAND                | Expand
-SYSTEMS_TAB_EXPLOIT               | Exploit
-SYSTEMS_TAB_EXTERMINATE           | Exterminate
-SYSTEMS_RANGE                     | %1 ly
+SYSTEMS_TITLE                     | Sistemas
+SYSTEMS_TAB_EXPLORE               | Explorar
+SYSTEMS_TAB_EXPAND                | Expandir
+SYSTEMS_TAB_EXPLOIT               | Explotar
+SYSTEMS_TAB_EXTERMINATE           | Exterminar
+SYSTEMS_RANGE                     | %1 al
 SYSTEMS_ENVIRONMENT_SIZE          | %1 %2
 SYSTEMS_ENVIRONMENT_TYPE          | %1 %2
-SYSTEMS_SHIELD                    | Shield %1
+SYSTEMS_SHIELD                    | Escudo %1
 SYSTEMS_BASES                     | Bases %1
-SYSTEMS_ENTER_NOTES               | Enter system notes here.
-SYSTEMS_ALERT                     | System Alert
-SYSTEMS_NO_ALERTS                 | No alerts at this time.
-SYSTEMS_HISTORY                   | System History
-SYSTEMS_UNSCOUTED                 | System is unscouted but is within reach of our scout ships.
-SYSTEMS_UNSCOUTED_NEED_TECH       | System is unscouted and can be reached after research in "%1" is completed.
-SYSTEMS_UNSCOUTED_COLONIZED       | System is unscouted and controlled by an empire that is not an ally.
-SYSTEMS_UNSCOUTED_ENEMY           | System is unscouted and controlled by an enemy empire.
-SYSTEMS_UNSCOUTED_GUARDED         | Unable to scout while system is guarded.
-SYSTEMS_UNSCOUTED_UNREACHABLE     | System is unscouted and currently unreachable.
-SYSTEMS_CAN_COLONIZE              | System can be reached and colonized with our current technology.
-SYSTEMS_CAN_COLONIZE_EN_ROUTE     | A colony ship is en route to this system. ETA is %1 turns.
-SYSTEMS_CAN_COLONIZE_ENEMY        | System can be reached and colonized but is orbited by a hostile [alien_race] fleet.
-SYSTEMS_UNCOLONIZED_NEED_TECH     | System can be colonized after research in "%1" is completed.
-SYSTEMS_UNCOLONIZED_NEED_TECHS    | System can be colonized after research in "%1" and "%2" is completed.
-SYSTEMS_UNCOLONIZEABLE            | System cannot be colonized.
-SYSTEMS_EXPLOIT_PCT               | Colony at %1% total production capacity.
-SYSTEMS_EXPLOIT_WASTE             | Colony is creating industrial waste.
-SYSTEMS_EXPLOIT_COMPLETE          | Colony is at maximum production capacity.
-SYSTEMS_EXPLOIT_TRANSPORTS        | %1 transports are in transit.
-SYSTEMS_EXT_ENEMY                 | Enemy colony.
-SYSTEMS_EXT_ENEMY_FLEET           | Enemy fleet in orbit.
-SYSTEMS_EXT_ENEMY_FLEET_PLAYER    | Enemy fleet orbiting our colony.
-SYSTEMS_EXT_ENEMY_FLEET_ALLY      | Enemy fleet orbiting an allied colony.
-SYSTEMS_EXT_INC_FLEET_PLAYER      | Enemy fleet in transit to our colony.
-SYSTEMS_EXT_INC_FLEET_ALLY        | Enemy fleet in transit to an allied colony.
-SYSTEMS_EXT_NEED_DEFENSE          | Defenses at this colony are not fully upgraded.
-SYSTEMS_EXT_INC_TRANSPORTS        | %1 [player_race] troops are in transit.
-SYSTEMS_HELP_1A                   | OVERVIEW - The purpose of this screen is to highlight systems in the galaxy that warrant attention by the player. Urgency or danger is denoted by color: flashing red is the highest, and green is the lowest.
-SYSTEMS_HELP_1B                   | Explore - shows unexplored systems within reach of scouts, or potentially with unresearched technologies.
-SYSTEMS_HELP_1C                   | Expand - shows colonizable systems within reach of ships, or potentially with unresearched technologies.
-SYSTEMS_HELP_1D                   | Exploit - shows colonies based lacking economic development. Also shows uncolonized systems with resources.
-SYSTEMS_HELP_1E                   | Exterminate - shows colonies that are under attack or have incoming enemy fleets.
-SYSTEMS_HELP_1F                   | System Alert - describes the system alert, if any, for the selected system
-SYSTEMS_HELP_1G                   | System Notes - text field for player to leave notes.
-SYSTEMS_HELP_1H                   | System History - a chronological list of significant events that have occurred in this system.
+SYSTEMS_ENTER_NOTES               | Ingresa notas del sistema aquí.
+SYSTEMS_ALERT                     | Alerta del sistema
+SYSTEMS_NO_ALERTS                 | No hay alertas en este momento.
+SYSTEMS_HISTORY                   | Historial del sistema
+SYSTEMS_UNSCOUTED                 | El sistema no ha sido explorado pero está al alcance de nuestras naves exploradoras.
+SYSTEMS_UNSCOUTED_NEED_TECH       | El sistema no ha sido explorado y podrá alcanzarse cuando se complete la investigación de "%1".
+SYSTEMS_UNSCOUTED_COLONIZED       | El sistema no ha sido explorado y está controlado por un imperio que no es aliado.
+SYSTEMS_UNSCOUTED_ENEMY           | El sistema no ha sido explorado y está controlado por un imperio enemigo.
+SYSTEMS_UNSCOUTED_GUARDED         | No es posible explorar mientras el sistema esté protegido.
+SYSTEMS_UNSCOUTED_UNREACHABLE     | El sistema no ha sido explorado y actualmente es inalcanzable.
+SYSTEMS_CAN_COLONIZE              | El sistema puede alcanzarse y colonizarse con nuestra tecnología actual.
+SYSTEMS_CAN_COLONIZE_EN_ROUTE     | Una nave colonia se dirige a este sistema. La llegada es en %1 turnos.
+SYSTEMS_CAN_COLONIZE_ENEMY        | El sistema puede alcanzarse y colonizarse, pero está orbitado por una flota hostil [alien_race].
+SYSTEMS_UNCOLONIZED_NEED_TECH     | El sistema podrá colonizarse cuando se complete la investigación de "%1".
+SYSTEMS_UNCOLONIZED_NEED_TECHS    | El sistema podrá colonizarse cuando se complete la investigación de "%1" y "%2".
+SYSTEMS_UNCOLONIZEABLE            | El sistema no puede ser colonizado.
+SYSTEMS_EXPLOIT_PCT               | La colonia está al %1% de su capacidad total de producción.
+SYSTEMS_EXPLOIT_WASTE             | La colonia está generando desechos industriales.
+SYSTEMS_EXPLOIT_COMPLETE          | La colonia está en su capacidad máxima de producción.
+SYSTEMS_EXPLOIT_TRANSPORTS        | %1 transportes están en tránsito.
+SYSTEMS_EXT_ENEMY                 | Colonia enemiga.
+SYSTEMS_EXT_ENEMY_FLEET           | Flota enemiga en órbita.
+SYSTEMS_EXT_ENEMY_FLEET_PLAYER    | Flota enemiga orbitando nuestra colonia.
+SYSTEMS_EXT_ENEMY_FLEET_ALLY      | Flota enemiga orbitando una colonia aliada.
+SYSTEMS_EXT_INC_FLEET_PLAYER      | Flota enemiga en tránsito hacia nuestra colonia.
+SYSTEMS_EXT_INC_FLEET_ALLY        | Flota enemiga en tránsito hacia una colonia aliada.
+SYSTEMS_EXT_NEED_DEFENSE          | Las defensas de esta colonia no están completamente mejoradas.
+SYSTEMS_EXT_INC_TRANSPORTS        | %1 tropas [player_race] están en tránsito.
+SYSTEMS_HELP_1A                   | DESCRIPCIÓN GENERAL - El propósito de esta pantalla es resaltar los sistemas de la galaxia que requieren la atención del jugador. La urgencia o el peligro se indican por color: rojo intermitente es el más alto y verde el más bajo.
+SYSTEMS_HELP_1B                   | Explorar - muestra sistemas no explorados al alcance de las naves exploradoras, o potencialmente accesibles con tecnologías aún no investigadas.
+SYSTEMS_HELP_1C                   | Expandir - muestra sistemas colonizables al alcance de las naves, o potencialmente accesibles con tecnologías aún no investigadas.
+SYSTEMS_HELP_1D                   | Explotar - muestra colonias con bajo desarrollo económico. También muestra sistemas no colonizados con recursos.
+SYSTEMS_HELP_1E                   | Exterminar - muestra colonias que están bajo ataque o con flotas enemigas en camino.
+SYSTEMS_HELP_1F                   | Alerta del sistema - describe la alerta del sistema, si existe, para el sistema seleccionado.
+SYSTEMS_HELP_1G                   | Notas del sistema - campo de texto para que el jugador deje notas.
+SYSTEMS_HELP_1H                   | Historial del sistema - una lista cronológica de eventos significativos ocurridos en este sistema.
 
-SYSTEMS_STATUS_REBELLION          | The colony is in rebellion.
-SYSTEMS_STATUS_COMET              | A comet will strike this planet in %1 years.
-SYSTEMS_STATUS_SUPERNOVA          | The system's star will go supernova in %1 years. Physicists need %2 RP to avert this catastrophe.
-SYSTEMS_STATUS_PLAGUE             | The colony is experiencing a global plague that requires %1 RP to cure.
-SYSTEMS_STATUS_PIRACY             | Pirates are affecting trade routes in this system.
-SYSTEMS_STATUS_SPACE_AMOEBA       | A giant space amoeba is heading towards this system.
-SYSTEMS_STATUS_SPACE_CRYSTAL      | A gigantic space crystal is heading towards this system.
+SYSTEMS_STATUS_REBELLION          | La colonia está en rebelión.
+SYSTEMS_STATUS_COMET              | Un cometa impactará este planeta en %1 años.
+SYSTEMS_STATUS_SUPERNOVA          | La estrella del sistema se convertirá en supernova en %1 años. Los físicos necesitan %2 PI para evitar esta catástrofe.
+SYSTEMS_STATUS_PLAGUE             | La colonia está sufriendo una plaga global que requiere %1 PI para ser curada.
+SYSTEMS_STATUS_PIRACY             | Los piratas están afectando las rutas comerciales en este sistema.
+SYSTEMS_STATUS_SPACE_AMOEBA       | Una ameba espacial gigante se dirige hacia este sistema.
+SYSTEMS_STATUS_SPACE_CRYSTAL      | Un cristal espacial gigantesco se dirige hacia este sistema.
 
 
-DIPLOMACY_RECEIVING               | Translating Incoming Message...
-DIPLOMACY_MENU_CONTINUE           | Continue
-DIPLOMACY_MENU_ACKNOWLEDGE        | Acknowledge
-DIPLOMACY_MENU_ACCEPT             | Accept
-DIPLOMACY_MENU_ACCEPT_NEED_BC     | Accept (not enough funds)
-DIPLOMACY_MENU_FORGET_IT          | Forget It
-DIPLOMACY_TRADE_LEVEL             | %1 BC / Year
-DIPLOMACY_MENU_TREATIES           | Propose Treaty
-DIPLOMACY_MENU_TRADE              | Trade Agreement
-DIPLOMACY_MENU_TECHNOLOGY         | Exchange Technology
-DIPLOMACY_MENU_OFFER_AID          | Offer Aid
+DIPLOMACY_RECEIVING               | Traduciendo mensaje entrante...
+DIPLOMACY_MENU_CONTINUE           | Continuar
+DIPLOMACY_MENU_ACKNOWLEDGE        | Reconocer
+DIPLOMACY_MENU_ACCEPT             | Aceptar
+DIPLOMACY_MENU_ACCEPT_NEED_BC     | Aceptar (fondos insuficientes)
+DIPLOMACY_MENU_FORGET_IT          | Olvidar
+DIPLOMACY_TRADE_LEVEL             | %1 BC / Año
+DIPLOMACY_MENU_TREATIES           | Proponer tratado
+DIPLOMACY_MENU_TRADE              | Acuerdo comercial
+DIPLOMACY_MENU_TECHNOLOGY         | Intercambiar tecnología
+DIPLOMACY_MENU_OFFER_AID          | Ofrecer ayuda
 DIPLOMACY_MENU_AMT                | %1 BC
-DIPLOMACY_MENU_OFFER_TECHS        | Offer Technology
-DIPLOMACY_MENU_THREATEN           | Threaten
-DIPLOMACY_MENU_DECLARE_WAR        | Declare War
-DIPLOMACY_MENU_EVICT_SPIES        | Remove All Spies (lowers relations)
-DIPLOMACY_MENU_STOP_SPYING        | Stop Spying Activities
-DIPLOMACY_MENU_STOP_ATTACKING     | Stop Attacking
-DIPLOMACY_MENU_GOODBYE            | Good Bye
-DIPLOMACY_MENU_PACT               | Propose Non-Aggression Pact
-DIPLOMACY_MENU_ALLIANCE           | Propose Alliance
-DIPLOMACY_MENU_PEACE              | Propose Peace Treaty
-DIPLOMACY_MENU_TRADE              | Propose Trade Treaty
-DIPLOMACY_MENU_JOINT_WAR          | Joint Declaration of War on Another Race
-DIPLOMACY_MENU_PROPOSE_BREAK_ALLY | Break Alliance With Another Race
-DIPLOMACY_MENU_BREAK_TRADE        | Break Trade Treaty
-DIPLOMACY_MENU_BREAK_PACT         | Break Non-Aggression Pact
-DIPLOMACY_MENU_BREAK_ALLIANCE     | Break Alliance
-DIPLOMACY_TRADE_MENU_BREAK        | Break Trade Treaty
-DIPLOMACY_THREATEN_MENU_0         | Recall Ambassador
-DIPLOMACY_THREATEN_MENU_1         | Demand Tribute 
-DIPLOMACY_THREATEN_MENU_2         | Break Non-Aggression Pact
-DIPLOMACY_THREATEN_MENU_3         | Break Alliance
-DIPLOMACY_THREATEN_MENU_BR        | Break Trade Treaty
-DIPLOMACY_THREATEN_MENU_5         | Declare War
-DIPLOMACY_ACCEPT_OFFER            | Accept
-DIPLOMACY_ACCEPT_JOIN_WAR         | Accept (Joins War)
-DIPLOMACY_ACCEPT_END_WAR          | Accept (Ends War, Recalls Forces)
-DIPLOMACY_ACCEPT_FORM_PACT        | Accept (Forms Pact)
-DIPLOMACY_ACCEPT_FORM_ALLIANCE    | Accept (Forms Alliance)
-DIPLOMACY_ACCEPT_ESTABLISH_TRADE  | Accept (Establishes Trade)
-DIPLOMACY_DECLINE_OFFER           | Decline
-DIPLOMACY_DECLINE_BREAK_ALLIANCE  | Decline (Breaks Alliance)
-DIPLOMACY_IGNORE_THREAT           | Ignore Threat
-DIPLOMACY_SHUTDOWN_SPIES          | Shutdown all spy networks in the [alien_empire] 
-DIPLOMACY_HIDE_SPIES              | Order all spies in the [alien_empire] to Hide
-DIPLOMACY_RETREAT_SHIPS           | Order all ships orbiting or in transit to [alien_race] systems to Retreat
+DIPLOMACY_MENU_OFFER_TECHS        | Ofrecer tecnología
+DIPLOMACY_MENU_THREATEN           | Amenazar
+DIPLOMACY_MENU_DECLARE_WAR        | Declarar la guerra
+DIPLOMACY_MENU_EVICT_SPIES        | Retirar todos los espías (reduce relaciones)
+DIPLOMACY_MENU_STOP_SPYING        | Detener actividades de espionaje
+DIPLOMACY_MENU_STOP_ATTACKING     | Detener ataques
+DIPLOMACY_MENU_GOODBYE            | Adiós
+DIPLOMACY_MENU_PACT               | Proponer pacto de no agresión
+DIPLOMACY_MENU_ALLIANCE           | Proponer alianza
+DIPLOMACY_MENU_PEACE              | Proponer tratado de paz
+DIPLOMACY_MENU_TRADE              | Proponer tratado comercial
+DIPLOMACY_MENU_JOINT_WAR          | Declaración conjunta de guerra contra otra raza
+DIPLOMACY_MENU_PROPOSE_BREAK_ALLY | Romper alianza con otra raza
+DIPLOMACY_MENU_BREAK_TRADE        | Romper tratado comercial
+DIPLOMACY_MENU_BREAK_PACT         | Romper pacto de no agresión
+DIPLOMACY_MENU_BREAK_ALLIANCE     | Romper alianza
+DIPLOMACY_TRADE_MENU_BREAK        | Romper tratado comercial
+DIPLOMACY_THREATEN_MENU_0         | Retirar embajador
+DIPLOMACY_THREATEN_MENU_1         | Exigir tributo
+DIPLOMACY_THREATEN_MENU_2         | Romper pacto de no agresión
+DIPLOMACY_THREATEN_MENU_3         | Romper alianza
+DIPLOMACY_THREATEN_MENU_BR        | Romper tratado comercial
+DIPLOMACY_THREATEN_MENU_5         | Declarar la guerra
+DIPLOMACY_ACCEPT_OFFER            | Aceptar
+DIPLOMACY_ACCEPT_JOIN_WAR         | Aceptar (entra en guerra)
+DIPLOMACY_ACCEPT_END_WAR          | Aceptar (termina la guerra y retira fuerzas)
+DIPLOMACY_ACCEPT_FORM_PACT        | Aceptar (forma pacto)
+DIPLOMACY_ACCEPT_FORM_ALLIANCE    | Aceptar (forma alianza)
+DIPLOMACY_ACCEPT_ESTABLISH_TRADE  | Aceptar (establece comercio)
+DIPLOMACY_DECLINE_OFFER           | Rechazar
+DIPLOMACY_DECLINE_BREAK_ALLIANCE  | Rechazar (rompe alianza)
+DIPLOMACY_IGNORE_THREAT           | Ignorar amenaza
+DIPLOMACY_SHUTDOWN_SPIES          | Desactivar todas las redes de espionaje en el [alien_empire]
+DIPLOMACY_HIDE_SPIES              | Ordenar a todos los espías en el [alien_empire] que se oculten
+DIPLOMACY_RETREAT_SHIPS           | Ordenar a todas las naves en órbita o en tránsito hacia sistemas [alien_race] que se retiren
+
 
 // types of endings
-GAME_OVER_OVERTHROWN_LOSS         | Overthrown Loss
-GAME_OVER_MILITARY_LOSS           | Military Loss
-GAME_OVER_DIPLOMATIC_LOSS         | Diplomatic Loss
-GAME_OVER_NEW_REPUBLIC_LOSS       | New Republic Loss
-GAME_OVER_REBELLION_LOSS          | Rebellion Loss
-GAME_OVER_DIPLOMATIC_WIN          | Diplomatic Win
-GAME_OVER_MILITARY_WIN            | Military Win
-GAME_OVER_MILITARY_ALLIANCE_WIN   | Military Alliance Win
-GAME_OVER_NEW_REPUBLIC_WIN        | New Republic Win
-GAME_OVER_REBELLION_WIN           | Rebellion Win
-GAME_OVER_REBEL_ALLIANCE_WIN      | Rebel Alliance Win
-GAME_OVER_ALLIANCE_WIN            | Alliance Win
-GAME_OVER_NO_COLONIES_LOSS        | Societal Collapse Loss
+GAME_OVER_OVERTHROWN_LOSS         | Derrota por derrocamiento
+GAME_OVER_MILITARY_LOSS           | Derrota militar
+GAME_OVER_DIPLOMATIC_LOSS         | Derrota diplomática
+GAME_OVER_NEW_REPUBLIC_LOSS       | Derrota de la Nueva República
+GAME_OVER_REBELLION_LOSS          | Derrota por rebelión
+GAME_OVER_DIPLOMATIC_WIN          | Victoria diplomática
+GAME_OVER_MILITARY_WIN            | Victoria militar
+GAME_OVER_MILITARY_ALLIANCE_WIN   | Victoria de alianza militar
+GAME_OVER_NEW_REPUBLIC_WIN        | Victoria de la Nueva República
+GAME_OVER_REBELLION_WIN           | Victoria por rebelión
+GAME_OVER_REBEL_ALLIANCE_WIN      | Victoria de la Alianza Rebelde
+GAME_OVER_ALLIANCE_WIN            | Victoria de alianza
+GAME_OVER_NO_COLONIES_LOSS        | Derrota por colapso social
 
-GAME_OVER_EXIT                    | Exit
-GAME_OVER_REPLAY                  | Replay
+GAME_OVER_EXIT                    | Salir
+GAME_OVER_REPLAY                  | Repetir
+
 
 // text for race-generic endings
 // %1 Game year, %2 player name, %3 player race, %4 player empire, %5 leader name, %6 leader race, %7 leader empire, %8 special text
-GAME_OVER_NO_COLONIES_LOSS2       | The rule of %2 has ended, undone by imperial incompetence.#With no civilized worlds on which to land safely, any surviving [player_race] transports are unable to sustain the technological progress made by your society.#Barbarism is the natural state of society. Civilization is unnatural. It is a whim of circumstance. And barbarism must ultimately triumph.
+GAME_OVER_NO_COLONIES_LOSS2       | El gobierno de %2 ha terminado, arruinado por la incompetencia imperial.#Sin mundos civilizados donde aterrizar de forma segura, cualquier transporte [player_race] superviviente es incapaz de sostener el progreso tecnológico alcanzado por tu sociedad.#La barbarie es el estado natural de la sociedad. La civilización es antinatural. Es un capricho de las circunstancias. Y la barbarie, en última instancia, debe triunfar.
