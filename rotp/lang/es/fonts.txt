@@ -1,0 +1,10 @@
+
+
+// Retro DOS style
+logo,     VT323-Regular.ttf, 100
+dialogue, VT323-Regular.ttf, 100
+narrow,   VT323-Regular.ttf, 100
+normal,   VT323-Regular.ttf, 100
+plain,    VT323-Regular.ttf, 100
+language, VT323-Regular.ttf, 110
+

@@ -4,8 +4,6 @@ package rotp.util;
 import java.awt.Font;
 import java.awt.FontFormatException;
 import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.HashMap;
@@ -51,43 +49,21 @@ public enum FontManager implements Base {
         int index = n*scale/100;
         return fonts[index];
     }
-    
     private void createFontTable(String filename, Font f) {
         if (allFonts.containsKey(filename))
-        return;
-
+            return;
+        
         Font[] fonts = new Font[MAX_FONT_SIZE+1];
         allFonts.put(filename, fonts);
-
-        // CARGAR FUENTE PERSONALIZADA
-        Font customFont = null;
-
-        String fontPath = new File(".").getAbsolutePath() + "/VT323-Regular.ttf";
         
-        // Intenta cargar tu fuente personalizada
-        try {
-            // Ruta relativa o absoluta a tu archivo TTF
-            File fontFile = new File(fontPath);
-            if(fontFile.exists()){
-
-                customFont = Font.createFont(Font.TRUETYPE_FONT, fontFile);
-            }else{
-                // Fallback: usar una fuente del sistema que se parezca
-                customFont = new Font("Monospaced", Font.PLAIN, 12);
-            }
-            
-        } catch (Exception e) {
-            // Si falla, usar la fuente original o una de respaldo
-            err("Error: " + e.getMessage());
-            customFont = new Font("Arial", Font.PLAIN, 12);
-        }
-
-        fonts[0] = customFont;
-
-        for (int size=1; size<=MAX_FONT_SIZE; size++) {
-            fonts[size] = customFont.deriveFont((float) scaled(size));
-        }
+        // index 0 is the base font that we use to re-derive
+        // the others when the window size changes 
+        fonts[0] = f;
         
+        for (int size=1;size<=MAX_FONT_SIZE;size++) {
+            if (fonts[size] == null)
+                fonts[size] = f.deriveFont((float) scaled(size));
+        }
     }
     public void resetFonts() {
         // window scaling has scaled. Rederive all fonts according to new scale

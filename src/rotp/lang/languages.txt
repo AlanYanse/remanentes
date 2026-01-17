@@ -9,7 +9,8 @@
 ##
 
 
-en,  English          ,  ,   , 
+en,  English          ,  ,   ,
+es,  Español          ,  ,   , 
 bg,  българин         ,  ,   , 
 #bn,  বাংলা            ,  ,   ,  , ০১২৩৪৫৬৭৮৯
 de,  Deutsch          ,  ,   , 
