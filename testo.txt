@@ -5,3 +5,17 @@ compilación -> javac -d bin $(find src -name "*.java")
 reempaquetar el .jar -> jar xf Remnants.jar
 reempaquetar de nuevo -> jar uf Remnants.jar -C bin .
 ejecutar el juego -> java -jar Remnants.jar
+
+Para agregar una raza :
+
+1-Copiar una de las carpetas de raza de src/rotp/races y pegarla en la misma ubicación con el nombre que se le va a dar a la raza nueva
+
+2-Añadir el nombre que se le dio a la nueva raza al archivo races/listing.txt
+
+3-Configuración de atributos (archivo definition.txt)
+
+4-Crear los archivos txt correspondientes a la raza en la carpeta de idiomas Lang/en y Lang/es
+
+5-Recursos visuales y animaciones. En la carpeta correspondiente a la nueva raza hay que mapear los archivos de configuración images y animations para que conduzcan a los nuevos recursos visuales que se van agregando. Diseño de naves: Se puede asignar un conjunto de gráficos preferido para las naves con la clave preferredship
+
+6-El juego solo permite 10 razas, por lo que para agregar hay que cambiar una de las KEY de razas definidas por la key de la nueva raza establecida en definition.txt en el método startingRaceOptions() de la clase ./src/rotp/model/game/MOO1GameOptions.java

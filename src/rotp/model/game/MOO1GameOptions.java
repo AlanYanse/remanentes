@@ -823,7 +823,7 @@ public class MOO1GameOptions implements Base, IGameOptions, Serializable {
         list.add("RACE_HUMAN");
         list.add("RACE_ALKARI");
         list.add("RACE_SILICOID");
-        list.add("RACE_MRRSHAN");
+        list.add("RACE_GERARDIOS");
         list.add("RACE_KLACKON");
         list.add("RACE_MEKLAR");
         list.add("RACE_PSILON");

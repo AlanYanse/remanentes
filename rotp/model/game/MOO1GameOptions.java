@@ -820,7 +820,7 @@ public class MOO1GameOptions implements Base, IGameOptions, Serializable {
     @Override
     public List<String> startingRaceOptions() {
         List<String> list = new ArrayList<>();
-        list.add("RACE_HUMAN");
+        list.add("RACE_GERARDIOS");
         list.add("RACE_ALKARI");
         list.add("RACE_SILICOID");
         list.add("RACE_MRRSHAN");
